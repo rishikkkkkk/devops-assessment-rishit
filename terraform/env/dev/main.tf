@@ -1,4 +1,4 @@
-module "resource_group" {
+module "rg" {
   source = "../../modules/resource-group"
 
   name     = "${var.project_name}-${var.environment}-rg"
